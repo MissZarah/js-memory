@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Acme", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+}
+body {
+  font-family: "Acme", sans-serif;
+  background: #eee;
+}
+
+#game-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 550px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background: url("../img/q-mark.png") no-repeat center;
+  background-size: 80%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#playAgainButton {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(127, 196, 127);
+  border: none;
+  border-radius: 5px;
+}
