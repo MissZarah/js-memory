@@ -1,5 +1,5 @@
 /*
-This method shuffles the game board for evry new game
+This method shuffles the game board for every new game
 */
 export function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
